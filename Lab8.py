@@ -35,7 +35,8 @@ print('{} divided by {} equals {}'.format(num1, num2, div))
 
 # Sets squareroot variable and prints it
 sq_root = math.sqrt(mul)
-print('The square root of {} equals {}'.format(mul,sq_root))
+formatted_sqrt = "{:.2f}".format(sq_root)
+print('The square root of {} equals {}'.format(mul,formatted_sqrt))
 
 # Created string variable for month and numeric variable for the day
 month = 'November'
